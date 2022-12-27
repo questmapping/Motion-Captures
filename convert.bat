@@ -1,0 +1,1 @@
+FOR %%f IN ("C:\Users\Shadow\Documents\Motion Captures\ToConvert\"*.bvh) DO "C:\Program Files\Blender Foundation\Blender 3.4\blender.exe" -b --python "C:\Users\Shadow\Documents\Motion Captures\blenderBCHtoFBXconverter.py" -- "%%f"
